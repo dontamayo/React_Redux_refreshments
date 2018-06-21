@@ -10,7 +10,7 @@ class App extends Component {
     this.props.dispatch(getMessages())
   }
 
-  renderList = ({list}) => {
+  renderList = ({list}) =>{
     if(list){
       return list.map((item)=>{
         return(
